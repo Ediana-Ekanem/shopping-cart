@@ -32,7 +32,7 @@ function App() {
     });
 
     const tempArr = cart;
-    tempArr[ind] += d;
+    tempArr[ind].amount += d;
     if (tempArr[ind].amount === 0) tempArr[ind].amount = 1;
 
     setCart([...tempArr]);

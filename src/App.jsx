@@ -49,7 +49,7 @@ function App() {
 
       <div className="relative top-0 ">
         {warning && (
-          <div className="bg-red-600 text-white p-4 rounded-lg shadow-md z-20">
+          <div className="bg-red-600 text-white text-center p-4 rounded-lg shadow-md z-20 fixed bottom-0 left-0 w-full">
             <h1> Item is already added to your cart</h1>
           </div>
         )}
